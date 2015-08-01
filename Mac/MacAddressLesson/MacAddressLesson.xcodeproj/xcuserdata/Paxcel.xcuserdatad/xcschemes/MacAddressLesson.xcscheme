@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0476451A1B5EB75400DAF957"
+               BlueprintIdentifier = "04E4ED151B62B587001ABCFA"
                BuildableName = "MacAddressLesson.app"
                BlueprintName = "MacAddressLesson"
                ReferencedContainer = "container:MacAddressLesson.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0476451A1B5EB75400DAF957"
+            BlueprintIdentifier = "04E4ED151B62B587001ABCFA"
             BuildableName = "MacAddressLesson.app"
             BlueprintName = "MacAddressLesson"
             ReferencedContainer = "container:MacAddressLesson.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0476451A1B5EB75400DAF957"
+            BlueprintIdentifier = "04E4ED151B62B587001ABCFA"
             BuildableName = "MacAddressLesson.app"
             BlueprintName = "MacAddressLesson"
             ReferencedContainer = "container:MacAddressLesson.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0476451A1B5EB75400DAF957"
+            BlueprintIdentifier = "04E4ED151B62B587001ABCFA"
             BuildableName = "MacAddressLesson.app"
             BlueprintName = "MacAddressLesson"
             ReferencedContainer = "container:MacAddressLesson.xcodeproj">

@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  MacAddressLesson
 //
-//  Created by Paxcel on 21/07/15.
+//  Created by Paxcel on 24/07/15.
 //  Copyright © 2015 VikasBansal. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "IpAddress.h"
+#import "MacAddressHelper.h"
 
 @interface AppDelegate ()
 
@@ -24,11 +24,9 @@
     // Insert code here to tear down your application
 }
 
-
 -(void)awakeFromNib{
-    
-    char* macAddress = getMac();
-    
+    NSString* macAd = [MacAddressHelper address];
+    NSLog(macAd);
 }
 
 @end

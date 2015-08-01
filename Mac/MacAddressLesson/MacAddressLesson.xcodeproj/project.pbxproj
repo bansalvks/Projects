@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047645201B5EB75500DAF957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476451F1B5EB75500DAF957 /* AppDelegate.m */; };
-		047645231B5EB75500DAF957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047645221B5EB75500DAF957 /* main.m */; };
-		047645251B5EB75500DAF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047645241B5EB75500DAF957 /* Assets.xcassets */; };
-		047645281B5EB75500DAF957 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047645261B5EB75500DAF957 /* MainMenu.xib */; };
-		047645311B5EB8CE00DAF957 /* IpAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 0476452F1B5EB8CE00DAF957 /* IpAddress.c */; };
+		04E4ED1B1B62B587001ABCFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4ED1A1B62B587001ABCFA /* AppDelegate.m */; };
+		04E4ED1E1B62B587001ABCFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4ED1D1B62B587001ABCFA /* main.m */; };
+		04E4ED201B62B587001ABCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4ED1F1B62B587001ABCFA /* Assets.xcassets */; };
+		04E4ED231B62B588001ABCFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E4ED211B62B588001ABCFA /* MainMenu.xib */; };
+		04E4ED2C1B62B609001ABCFA /* MacAddressHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4ED2B1B62B609001ABCFA /* MacAddressHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0476451B1B5EB75500DAF957 /* MacAddressLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAddressLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0476451E1B5EB75500DAF957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0476451F1B5EB75500DAF957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		047645221B5EB75500DAF957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		047645241B5EB75500DAF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		047645271B5EB75500DAF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		047645291B5EB75500DAF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0476452F1B5EB8CE00DAF957 /* IpAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IpAddress.c; path = ../../IpAddress.c; sourceTree = "<group>"; };
-		047645301B5EB8CE00DAF957 /* IpAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IpAddress.h; path = ../../IpAddress.h; sourceTree = "<group>"; };
+		04E4ED161B62B587001ABCFA /* MacAddressLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAddressLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E4ED191B62B587001ABCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E4ED1A1B62B587001ABCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E4ED1D1B62B587001ABCFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E4ED1F1B62B587001ABCFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E4ED221B62B588001ABCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04E4ED241B62B588001ABCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E4ED2A1B62B609001ABCFA /* MacAddressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacAddressHelper.h; path = ../../MacAddressHelper.h; sourceTree = "<group>"; };
+		04E4ED2B1B62B609001ABCFA /* MacAddressHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacAddressHelper.m; path = ../../MacAddressHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		047645181B5EB75400DAF957 /* Frameworks */ = {
+		04E4ED131B62B587001ABCFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,41 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		047645121B5EB75400DAF957 = {
+		04E4ED0D1B62B587001ABCFA = {
 			isa = PBXGroup;
 			children = (
-				0476451D1B5EB75500DAF957 /* MacAddressLesson */,
-				0476451C1B5EB75500DAF957 /* Products */,
+				04E4ED181B62B587001ABCFA /* MacAddressLesson */,
+				04E4ED171B62B587001ABCFA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0476451C1B5EB75500DAF957 /* Products */ = {
+		04E4ED171B62B587001ABCFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0476451B1B5EB75500DAF957 /* MacAddressLesson.app */,
+				04E4ED161B62B587001ABCFA /* MacAddressLesson.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0476451D1B5EB75500DAF957 /* MacAddressLesson */ = {
+		04E4ED181B62B587001ABCFA /* MacAddressLesson */ = {
 			isa = PBXGroup;
 			children = (
-				0476452F1B5EB8CE00DAF957 /* IpAddress.c */,
-				047645301B5EB8CE00DAF957 /* IpAddress.h */,
-				0476451E1B5EB75500DAF957 /* AppDelegate.h */,
-				0476451F1B5EB75500DAF957 /* AppDelegate.m */,
-				047645241B5EB75500DAF957 /* Assets.xcassets */,
-				047645261B5EB75500DAF957 /* MainMenu.xib */,
-				047645291B5EB75500DAF957 /* Info.plist */,
-				047645211B5EB75500DAF957 /* Supporting Files */,
+				04E4ED2A1B62B609001ABCFA /* MacAddressHelper.h */,
+				04E4ED2B1B62B609001ABCFA /* MacAddressHelper.m */,
+				04E4ED191B62B587001ABCFA /* AppDelegate.h */,
+				04E4ED1A1B62B587001ABCFA /* AppDelegate.m */,
+				04E4ED1F1B62B587001ABCFA /* Assets.xcassets */,
+				04E4ED211B62B588001ABCFA /* MainMenu.xib */,
+				04E4ED241B62B588001ABCFA /* Info.plist */,
+				04E4ED1C1B62B587001ABCFA /* Supporting Files */,
 			);
 			path = MacAddressLesson;
 			sourceTree = "<group>";
 		};
-		047645211B5EB75500DAF957 /* Supporting Files */ = {
+		04E4ED1C1B62B587001ABCFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				047645221B5EB75500DAF957 /* main.m */,
+				04E4ED1D1B62B587001ABCFA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -79,13 +79,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0476451A1B5EB75400DAF957 /* MacAddressLesson */ = {
+		04E4ED151B62B587001ABCFA /* MacAddressLesson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0476452C1B5EB75500DAF957 /* Build configuration list for PBXNativeTarget "MacAddressLesson" */;
+			buildConfigurationList = 04E4ED271B62B588001ABCFA /* Build configuration list for PBXNativeTarget "MacAddressLesson" */;
 			buildPhases = (
-				047645171B5EB75400DAF957 /* Sources */,
-				047645181B5EB75400DAF957 /* Frameworks */,
-				047645191B5EB75400DAF957 /* Resources */,
+				04E4ED121B62B587001ABCFA /* Sources */,
+				04E4ED131B62B587001ABCFA /* Frameworks */,
+				04E4ED141B62B587001ABCFA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -93,24 +93,24 @@
 			);
 			name = MacAddressLesson;
 			productName = MacAddressLesson;
-			productReference = 0476451B1B5EB75500DAF957 /* MacAddressLesson.app */;
+			productReference = 04E4ED161B62B587001ABCFA /* MacAddressLesson.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		047645131B5EB75400DAF957 /* Project object */ = {
+		04E4ED0E1B62B587001ABCFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = VikasBansal;
 				TargetAttributes = {
-					0476451A1B5EB75400DAF957 = {
+					04E4ED151B62B587001ABCFA = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 047645161B5EB75400DAF957 /* Build configuration list for PBXProject "MacAddressLesson" */;
+			buildConfigurationList = 04E4ED111B62B587001ABCFA /* Build configuration list for PBXProject "MacAddressLesson" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,46 +118,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 047645121B5EB75400DAF957;
-			productRefGroup = 0476451C1B5EB75500DAF957 /* Products */;
+			mainGroup = 04E4ED0D1B62B587001ABCFA;
+			productRefGroup = 04E4ED171B62B587001ABCFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0476451A1B5EB75400DAF957 /* MacAddressLesson */,
+				04E4ED151B62B587001ABCFA /* MacAddressLesson */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		047645191B5EB75400DAF957 /* Resources */ = {
+		04E4ED141B62B587001ABCFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047645251B5EB75500DAF957 /* Assets.xcassets in Resources */,
-				047645281B5EB75500DAF957 /* MainMenu.xib in Resources */,
+				04E4ED201B62B587001ABCFA /* Assets.xcassets in Resources */,
+				04E4ED231B62B588001ABCFA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		047645171B5EB75400DAF957 /* Sources */ = {
+		04E4ED121B62B587001ABCFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047645311B5EB8CE00DAF957 /* IpAddress.c in Sources */,
-				047645231B5EB75500DAF957 /* main.m in Sources */,
-				047645201B5EB75500DAF957 /* AppDelegate.m in Sources */,
+				04E4ED1E1B62B587001ABCFA /* main.m in Sources */,
+				04E4ED1B1B62B587001ABCFA /* AppDelegate.m in Sources */,
+				04E4ED2C1B62B609001ABCFA /* MacAddressHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		047645261B5EB75500DAF957 /* MainMenu.xib */ = {
+		04E4ED211B62B588001ABCFA /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				047645271B5EB75500DAF957 /* Base */,
+				04E4ED221B62B588001ABCFA /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0476452A1B5EB75500DAF957 /* Debug */ = {
+		04E4ED251B62B588001ABCFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		0476452B1B5EB75500DAF957 /* Release */ = {
+		04E4ED261B62B588001ABCFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		0476452D1B5EB75500DAF957 /* Debug */ = {
+		04E4ED281B62B588001ABCFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -256,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		0476452E1B5EB75500DAF957 /* Release */ = {
+		04E4ED291B62B588001ABCFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -271,24 +271,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		047645161B5EB75400DAF957 /* Build configuration list for PBXProject "MacAddressLesson" */ = {
+		04E4ED111B62B587001ABCFA /* Build configuration list for PBXProject "MacAddressLesson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0476452A1B5EB75500DAF957 /* Debug */,
-				0476452B1B5EB75500DAF957 /* Release */,
+				04E4ED251B62B588001ABCFA /* Debug */,
+				04E4ED261B62B588001ABCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0476452C1B5EB75500DAF957 /* Build configuration list for PBXNativeTarget "MacAddressLesson" */ = {
+		04E4ED271B62B588001ABCFA /* Build configuration list for PBXNativeTarget "MacAddressLesson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0476452D1B5EB75500DAF957 /* Debug */,
-				0476452E1B5EB75500DAF957 /* Release */,
+				04E4ED281B62B588001ABCFA /* Debug */,
+				04E4ED291B62B588001ABCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 047645131B5EB75400DAF957 /* Project object */;
+	rootObject = 04E4ED0E1B62B587001ABCFA /* Project object */;
 }
