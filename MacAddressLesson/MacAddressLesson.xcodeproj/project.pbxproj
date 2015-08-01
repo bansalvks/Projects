@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047645201B5EB75500DAF957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476451F1B5EB75500DAF957 /* AppDelegate.m */; };
+		047645231B5EB75500DAF957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047645221B5EB75500DAF957 /* main.m */; };
+		047645251B5EB75500DAF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047645241B5EB75500DAF957 /* Assets.xcassets */; };
+		047645281B5EB75500DAF957 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047645261B5EB75500DAF957 /* MainMenu.xib */; };
+		047645311B5EB8CE00DAF957 /* IpAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 0476452F1B5EB8CE00DAF957 /* IpAddress.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0476451B1B5EB75500DAF957 /* MacAddressLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAddressLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476451E1B5EB75500DAF957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0476451F1B5EB75500DAF957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047645221B5EB75500DAF957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047645241B5EB75500DAF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047645271B5EB75500DAF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		047645291B5EB75500DAF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0476452F1B5EB8CE00DAF957 /* IpAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IpAddress.c; path = ../../IpAddress.c; sourceTree = "<group>"; };
+		047645301B5EB8CE00DAF957 /* IpAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IpAddress.h; path = ../../IpAddress.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047645181B5EB75400DAF957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047645121B5EB75400DAF957 = {
+			isa = PBXGroup;
+			children = (
+				0476451D1B5EB75500DAF957 /* MacAddressLesson */,
+				0476451C1B5EB75500DAF957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0476451C1B5EB75500DAF957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0476451B1B5EB75500DAF957 /* MacAddressLesson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0476451D1B5EB75500DAF957 /* MacAddressLesson */ = {
+			isa = PBXGroup;
+			children = (
+				0476452F1B5EB8CE00DAF957 /* IpAddress.c */,
+				047645301B5EB8CE00DAF957 /* IpAddress.h */,
+				0476451E1B5EB75500DAF957 /* AppDelegate.h */,
+				0476451F1B5EB75500DAF957 /* AppDelegate.m */,
+				047645241B5EB75500DAF957 /* Assets.xcassets */,
+				047645261B5EB75500DAF957 /* MainMenu.xib */,
+				047645291B5EB75500DAF957 /* Info.plist */,
+				047645211B5EB75500DAF957 /* Supporting Files */,
+			);
+			path = MacAddressLesson;
+			sourceTree = "<group>";
+		};
+		047645211B5EB75500DAF957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047645221B5EB75500DAF957 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0476451A1B5EB75400DAF957 /* MacAddressLesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476452C1B5EB75500DAF957 /* Build configuration list for PBXNativeTarget "MacAddressLesson" */;
+			buildPhases = (
+				047645171B5EB75400DAF957 /* Sources */,
+				047645181B5EB75400DAF957 /* Frameworks */,
+				047645191B5EB75400DAF957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAddressLesson;
+			productName = MacAddressLesson;
+			productReference = 0476451B1B5EB75500DAF957 /* MacAddressLesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047645131B5EB75400DAF957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = VikasBansal;
+				TargetAttributes = {
+					0476451A1B5EB75400DAF957 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 047645161B5EB75400DAF957 /* Build configuration list for PBXProject "MacAddressLesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047645121B5EB75400DAF957;
+			productRefGroup = 0476451C1B5EB75500DAF957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0476451A1B5EB75400DAF957 /* MacAddressLesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047645191B5EB75400DAF957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047645251B5EB75500DAF957 /* Assets.xcassets in Resources */,
+				047645281B5EB75500DAF957 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047645171B5EB75400DAF957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047645311B5EB8CE00DAF957 /* IpAddress.c in Sources */,
+				047645231B5EB75500DAF957 /* main.m in Sources */,
+				047645201B5EB75500DAF957 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047645261B5EB75500DAF957 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047645271B5EB75500DAF957 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0476452A1B5EB75500DAF957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0476452B1B5EB75500DAF957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0476452D1B5EB75500DAF957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAddressLesson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikasBansal.MacAddressLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0476452E1B5EB75500DAF957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAddressLesson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VikasBansal.MacAddressLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047645161B5EB75400DAF957 /* Build configuration list for PBXProject "MacAddressLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476452A1B5EB75500DAF957 /* Debug */,
+				0476452B1B5EB75500DAF957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476452C1B5EB75500DAF957 /* Build configuration list for PBXNativeTarget "MacAddressLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476452D1B5EB75500DAF957 /* Debug */,
+				0476452E1B5EB75500DAF957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047645131B5EB75400DAF957 /* Project object */;
+}
